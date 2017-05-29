@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/name_title"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="0.13" />
+
+        <TextView
+            android:id="@+id/amount_title"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Amount"
+            android:textAlignment="center"
+            android:textColor="#08401a"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="0.16" />
+
+        <TextView
+            android:id="@+id/aval_title"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Open"
+            android:textAlignment="center"
+            android:textColor="#08401a"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="0.11" />
+
+        <TextView
+            android:id="@+id/info_title"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:fontFamily="serif"
+            android:text="Info"
+            android:textAlignment="center"
+            android:textColor="#08401a"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name0"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:fontFamily="monospace"
+            android:text="Dotus"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/rate0"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="382"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aval0"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:fontFamily="monospace"
+            android:text="Yes"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/info0"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.92"
+
+            android:background="#3e9a5b"
+            android:elevation="24dp"
+            android:fontFamily="monospace"
+            android:text="Click"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:fontFamily="monospace"
+            android:text="Dotus"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/rate1"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="382"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aval1"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:fontFamily="monospace"
+            android:text="Yes"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/info1"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.92"
+
+            android:background="#3e9a5b"
+            android:elevation="24dp"
+            android:fontFamily="monospace"
+            android:text="Click"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:fontFamily="monospace"
+            android:text="Meritum"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/rate2"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="380"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aval2"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:fontFamily="monospace"
+            android:text="No"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/info2"
+
+            android:layout_weight="0.92"
+            android:fontFamily="monospace"
+            android:text="Click"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:background="#3e9a5b"
+            android:textColor="#fff"
+            android:layout_height="36dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:fontFamily="monospace"
+            android:text="Kantory2"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/rate3"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="379.9"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aval3"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:fontFamily="monospace"
+            android:text="Yes"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/info3"
+
+            android:layout_weight="0.92"
+            android:fontFamily="monospace"
+            android:text="Click"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:background="#3e9a5b"
+            android:textColor="#fff"
+            android:layout_height="36dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:fontFamily="monospace"
+            android:text="Grosz"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/rate4"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="379.5"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aval4"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:fontFamily="monospace"
+            android:text="No"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/info4"
+
+            android:layout_weight="0.92"
+            android:fontFamily="monospace"
+            android:text="Click"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:background="#3e9a5b"
+            android:textColor="#fff"
+            android:layout_height="36dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:fontFamily="monospace"
+            android:text="BaksyPL"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/rate5"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="378.5"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aval5"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:fontFamily="monospace"
+            android:text="Yes"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/info5"
+
+            android:layout_weight="0.92"
+            android:fontFamily="monospace"
+            android:text="Click"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:background="#3e9a5b"
+            android:textColor="#fff"
+            android:layout_height="36dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:fontFamily="monospace"
+            android:text="Vabanque"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/rate6"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="377"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/aval6"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:fontFamily="monospace"
+            android:text="No"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#08401a"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/info6"
+
+            android:layout_weight="0.92"
+            android:fontFamily="monospace"
+            android:text="Click"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:background="#3e9a5b"
+            android:textColor="#fff"
+            android:layout_height="36dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/register"
+
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.15"
+
+            android:background="#3e9a5b"
+            android:fontFamily="monospace"
+            android:text="Register Best and Show History"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</LinearLayout>
