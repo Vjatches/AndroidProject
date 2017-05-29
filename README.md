@@ -11,7 +11,8 @@ Funkcjonalność aplikacji:
 Aplikacja pobiera od użytkownika nazwy walut którą na którą chce użytkownik wymienić oraz kwotę
 Aplikacja pobiera kursy walut ze wszystkich dostępnych w Krakowie kantorów oraz ich godziny otwarcia
 Aplikacja wyświetla użytkowniku gdzie on może najwygodniej wymienić walute, godziny pracy odpowiedniego kantoru, lokalizacje na mapie
-Aplikacja posiada możliwość generowania wykresu z historią przeszłych transakcji
+Aplikacja posiada możliwość przeglądu przeszłych transakcji za określony okres czasowy - do 5 ostatni dni
+Funkcja generowania wykresu dostępna dla wielu kierunków wymiany n.p. UAH -> PLN, USD - EUR... 
 
 Manual użytkownika:
 
