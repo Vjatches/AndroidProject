@@ -1,8 +1,6 @@
-# Project_Android
+# Android Currency Exchange Calculator
 Project for "Mobile Systems" classes
 
-1. Viacheslav Babanin KrDzIs3012Io 172911
-2. Yaroslav Krupa KrDzIs3012Io 180753
 
 Aplikacja musi być kalkulatorem wygodnej wymiany walut dla użytkowników na terenie Krakowa.
 
